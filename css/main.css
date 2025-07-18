@@ -45,10 +45,6 @@ h1 {
     transform: translateY(-2px);
 }
 
-.nav-button:active {
-    transform: translateY(1px);
-}
-
 footer {
     background-color: #333;
     color: white;

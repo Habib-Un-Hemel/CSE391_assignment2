@@ -1,17 +1,26 @@
-// Array of fortune messages
 const fortunes = [
+  "A golden egg of opportunity falls into your lap this month.",
+  "A hunch is creativity trying to tell you something.",
+  "A journey of a thousand miles begins with a single step.",
+  "A lifetime of happiness lies in store for you.",
+  "Indeed, with hardship comes ease. (Quran 94:6)",
+  "Patience is beautiful. (Quran 12:18)",
   "A beautiful, smart, and loving person will be coming into your life.",
   "A dubious friend may be an enemy in camouflage.",
   "A faithful friend is a strong defense.",
   "A feather in the hand is better than a bird in the air.",
   "A fresh start will put you on your way.",
   "A friend asks only for your time not your money.",
-  "A golden egg of opportunity falls into your lap this month.",
-  "A hunch is creativity trying to tell you something.",
-  "A journey of a thousand miles begins with a single step.",
-  "A lifetime of happiness lies in store for you.",
-];
 
+  "Allah does not burden a soul beyond that it can bear. (Quran 2:286)",
+  "Verily, with every difficulty there is relief. (Quran 94:5)",
+  "And He found you lost and guided you. (Quran 93:7)",
+  "Put your trust in Allah; Allah loves those who put their trust in Him. (Quran 3:159)",
+  "The cure for ignorance is to question. (Islamic proverb)",
+  "The strongest among you is the one who controls his anger. (Hadith)",
+  "He who has health has hope, and he who has hope has everything. (Islamic proverb)",
+  "The world is three days: yesterday has gone with all that was done; tomorrow, you may never reach; but today is for you so do good in it. (Hasan al-Basri)",
+];
 // Get the fortune box element
 const fortuneBox = document.getElementById("fortune-box");
 
@@ -57,11 +66,11 @@ function changeColors(color) {
 function changeFont() {
   const fontSizes = ["16px", "18px", "20px"];
   const fontFamilies = [
-    "Arial",
-    "Georgia",
-    "Verdana",
-    "Tahoma",
-    "Comic Sans MS",
+    "Courier New", // Monospace
+    "Tahoma", //
+    "Impact", // Bold/narrow
+    "Georgia", // Decorative
+    "Times New Roman", // Serif
   ];
 
   // Select random font size and family

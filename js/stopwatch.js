@@ -8,7 +8,7 @@ document.getElementById("start").addEventListener("click", () => {
       if (time > 30) {
         clearInterval(timer);
         timer = null;
-        time = 0;
+        time = 30; // Set to exactly 30 when it reaches the limit
       }
       document.getElementById("display").innerText = time;
     }, 3000);
@@ -18,7 +18,7 @@ document.getElementById("start").addEventListener("click", () => {
 document.getElementById("stop").addEventListener("click", () => {
   clearInterval(timer);
   timer = null;
-  time = 0;
+  // Don't reset time to 0, so it can resume from where it left off
 });
 
 document.getElementById("reset").addEventListener("click", () => {

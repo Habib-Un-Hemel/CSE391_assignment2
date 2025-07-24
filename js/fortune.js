@@ -11,7 +11,6 @@ const fortunes = [
   "A feather in the hand is better than a bird in the air.",
   "A fresh start will put you on your way.",
   "A friend asks only for your time not your money.",
-
   "Allah does not burden a soul beyond that it can bear. (Quran 2:286)",
   "Verily, with every difficulty there is relief. (Quran 94:5)",
   "And He found you lost and guided you. (Quran 93:7)",
@@ -32,10 +31,9 @@ function displayFortune() {
 
 // Function to change colors of the fortune box
 function changeColors(color) {
-  // Set background color
+
   fortuneBox.style.backgroundColor = color;
 
-  // Set text color based on background for contrast
   if (color === "red" || color === "green") {
     fortuneBox.style.color = "white";
   } else {
